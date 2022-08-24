@@ -1,0 +1,117 @@
+.sidebar{
+    flex: 3;
+    height: calc(200vh - 10px);
+    top: 50px;
+    background-color: #1d4048;
+    position: fixed;
+    overflow-y: scroll;
+    background-image: url(/public/assets/manthan_sidebar_wp.jpg);
+
+    background-size: 450px;
+    
+    width: 400px;
+
+   
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #1e3034;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #1e3034;
+
+    
+    
+}
+
+
+.sidebarWrapper{
+    padding: 5px;
+}
+
+.sidebarList{
+    width: 230px;
+    display: list-item;
+    padding: 5px;
+    margin: 0;
+    list-style: none;
+    background-color: #356570;
+    border-radius: 10px;
+    margin-top: 85px;
+    margin-left: 80px;
+    height: 210px;
+
+
+}
+
+.sidebarListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    height: 15px;
+    cursor: pointer;
+    
+}
+
+.sidebarIcon{
+    margin-right: 15px;
+}
+
+
+
+.sidebarListItem:hover  > .MuiSvgIcon-root {
+    color: #ffb700;
+}
+
+.sideFeature {
+    color: #ff9100;
+    margin-top: 15px;
+    margin-left: 160px;
+    font-weight: 700;
+}
+.sidebarFeature{
+    height: 200px;
+    width: 200px;
+    margin-left: 90px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+
+.sidebarBottomList{
+    background-color: #356570;
+    width: 235px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 20px;
+    height: 100px;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+   
+}
+
+.sidebarBottomListItem{
+    margin-left: 5px;
+    color: antiquewhite;
+    height: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+
+  
+}
+
+
+
+
+
+

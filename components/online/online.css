@@ -1,0 +1,42 @@
+.rightbarFriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 20px;
+    display: inline-block;
+    columns: 3;
+    -webkit-columns: 1;
+    -moz-columns: 2;
+    margin-left: 10px;
+    margin-top: 5px;
+   
+
+  }
+  
+  .rightbarProfileImgContainer {
+    margin-left: 10px;
+    position: relative;
+  }
+  
+  .rightbarProfileImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .rightbarOnline{
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: limegreen;
+      position: absolute;
+      top: -2px;
+      right: 0;
+      border: 2px solid white;
+
+  }
+  
+  .rightbarUsername{
+      font-weight: 500;
+  }

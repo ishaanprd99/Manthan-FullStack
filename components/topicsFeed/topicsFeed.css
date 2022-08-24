@@ -1,0 +1,69 @@
+.topics{
+    flex: 5;
+    padding: 30px;
+    width: 1130px;
+    background-color: #415b60;
+    background-image: url("/public/assets/manthan_bkg1.jpg");
+    background-size: 400px;
+    
+}
+
+
+    
+
+
+
+.TopicsInfo{
+    margin-top: 10px;
+    margin-left: 420px;
+    background-color: #527983;
+    height: 900px;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  }
+  
+  .TopicInfoItem{
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .TopicInfoKey{
+    font-weight: 500;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 10px;
+  
+  }
+  
+  .TopicInfoValue{
+    font-weight: 300;
+    color: rgb(255, 140, 0);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: #333637;
+    border-radius: 20px;
+  }
+
+  .TopicInfoValue1{
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: #333637;
+    border-radius: 20px;
+  }
+
+
+  .TopicInfoKey > h3{
+   background-color: #24444a;
+   width: 200px;
+   border-radius: 10px;
+   margin-top: 10px;
+  }
+  

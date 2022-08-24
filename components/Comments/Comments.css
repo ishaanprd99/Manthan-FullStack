@@ -1,0 +1,36 @@
+.comment{
+    width: 70%;
+    background-color: #27525c;
+  
+    box-shadow: rgba(3, 50, 238, 0.1) 0px 4px 16px, rgba(6, 113, 236, 0.1) 0px 8px 24px, rgba(6, 25, 239, 0.1) 0px 16px 56px;
+    margin-left: 150px;
+    height: 105px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  border-radius: 20px;
+  
+}
+
+.comment__top{
+display: flex;
+position: relative;
+align-items: center;
+padding: 5px;
+}
+
+.comment__avatar{
+margin-right: 10px;
+}
+
+
+.comment__topInfo > h3{
+font-size: medium;
+color: rgb(255, 176, 6);
+}
+
+
+.comment__topInfo > p{
+font-size: small;
+color: rgb(200, 198, 198);
+
+}

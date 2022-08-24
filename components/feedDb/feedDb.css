@@ -1,0 +1,119 @@
+.feedDb{
+    flex: 5;
+    padding: 30px;
+    width: 1130px;
+    background-color: #415b60;
+    background-image: url("/public/assets/manthan_bkg1.jpg");
+    background-size: 400px;
+    
+}
+
+.feedList{
+
+    width: 650px;
+    display: inline-flex;
+    padding: 5px;
+    margin: 0;
+    list-style: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-radius: 50px;
+    height: 30px;
+    background-color: #076e83;
+    margin-left: 390px;
+
+    
+
+
+}
+
+
+
+.feedListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    color: aliceblue;
+    margin-left: 40px;
+    width: 230px;
+    
+}
+
+.feedListItemText{
+  margin-left: 5px;
+}
+
+
+
+
+.sidebarIcon{
+    margin-left: 15px;
+}
+
+.feedListItem:hover {
+    background-color: #757a7a;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+
+.feedListItem:hover  > .MuiSvgIcon-root {
+    color: #ffb700;
+}
+
+
+.rightbarTitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgb(255, 162, 0);
+    margin-left: 20px;
+    margin-top: 10px;
+
+  }
+  
+
+
+.UserInfo{
+    margin-top: 10px;
+    margin-left: 480px;
+    background-color: #356570;
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  }
+  
+  .UserInfoItem{
+    margin-bottom: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .UserInfoKey{
+    font-weight: 500;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 10px;
+  
+  }
+  
+  .UserInfoValue{
+    font-weight: 300;
+    color: rgb(205, 200, 194);
+    margin-top: 10px;
+  }
+
+  .UserInfoKey > h3{
+   background-color: #24444a;
+   width: 200px;
+   border-radius: 10px;
+   margin-top: 10px;
+  }
+  

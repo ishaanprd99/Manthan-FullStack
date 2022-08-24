@@ -1,0 +1,165 @@
+.insights{
+    flex: 5;
+    padding: 30px;
+    width: 1130px;
+    background-color: #415b60;
+    background-image: url("/public/assets/manthan_bkg1.jpg");
+    background-size: 400px;
+    
+}
+
+
+    
+
+
+
+.InsightsInfo{
+    margin-top: 10px;
+    margin-left: 420px;
+    background-color: #527983;
+    height: 350px;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  
+.InsightsInfo1{
+    margin-top: 10px;
+    margin-left: 420px;
+    background-color: #527983;
+    height: 350px;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+.InsightsInfo2{
+    margin-top: 10px;
+    margin-left: 420px;
+    background-color: #527983;
+    height: 430px;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  .InsightItem{
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+
+  .InsightKey{
+    font-weight: 500;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 10px;
+  display: block;
+  }
+  
+  .InsightValue{
+    font-weight: 300;
+    color: rgb(205, 200, 194);
+    margin-top: 10px;
+    display: block;
+  }
+
+  .InsightValue1{
+    font-weight: 300;
+    color: rgb(255, 140, 0);
+    margin-top: 10px;
+    display: block;
+    font-weight: 600;
+  }
+
+
+  .InsightKey > h3{
+   width: 200px;
+   border-radius: 10px;
+   margin-top: 10px;
+  }
+  
+  
+.InsightKey{
+    color: #ff9100;
+    margin-top: 25px;
+}
+
+.InsightPr{
+    margin-left: 20px;
+    color: #1e4551;
+
+}
+
+  .Insightbar{
+    width: 45%;
+    height: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    background-color: #a9b0b0;
+    margin-left: 25px;
+    cursor: pointer;
+    margin-bottom: 10px;
+ 
+   
+}
+
+.InsightText{
+    color: #ff9100;
+    background-color: #1e4551;
+    height: 30px;
+    border-radius: 30px;
+    width: 150px;
+    
+   
+}
+
+.InsightText > h4{
+    margin-left: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+  
+.InsightBotom{
+    margin-top: 10px;
+}
+
+.InsightBotombar{
+    width: 95%;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    background-color: #a9b0b0;
+    margin-left: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+ 
+   
+}
+
+.InsightBotomText{
+    color: #ff9100;
+    background-color: #1e4551;
+    height: 45px;
+    border-radius: 30px;
+    width: 150px;
+    
+   
+}
+
+.InsightBotomText > h4{
+    margin-left: 10px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+  
