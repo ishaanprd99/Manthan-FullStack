@@ -1,0 +1,170 @@
+.register{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:
+    radial-gradient(circle, transparent 20%, #1e3034 20%,
+    #1e3034 80%, transparent 80%, transparent),
+    radial-gradient(circle, transparent 20%, #1e3034 20%,
+    #1e3034 80%, transparent 80%, transparent) 50px 50px,
+    linear-gradient(#1e3034 8px, transparent 8px) 0 -4px,
+    linear-gradient(90deg, #1e3034 8px, transparent 8px) -4px 0;
+    background-color: #1e3034;
+    background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
+    background-image: url("/public/assets/manthan_bkg1.jpg");
+    background-size: 400px;
+}
+
+.registerWrapper{
+    width: 130%;
+    height: 100%;
+    display: flex;
+}
+
+.registerLeft, .registerRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registerLeft{
+    justify-content: center;
+    margin-left: 110px;
+}
+
+.registerRight{
+    background-image: url("/public/assets/login_bg1.jpg");
+    background-size: cover;
+    height: 810px;
+    width: 250px;
+    margin-right: 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.registerLeft > img{
+    margin-left: 140px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.registerLogo{
+    margin-left: 80px;
+    font-size: 70px;
+    font-weight: 800;
+    color: #ff8400;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.registerDesc{
+    margin-bottom: 0px;
+    font-size: 20px;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+.registerBox{
+    margin-bottom: 220px;
+    height: 250px;
+    padding: 70px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.registerInput{
+    margin-bottom: 25px;
+    height: 35px;
+    border-radius: 40px;
+    font-size: 18px;
+    border: 1px solid yellow;
+    margin-left: 65px;
+    padding: 10px;
+    width: 450px;
+}
+
+.registerInput:focus{
+    outline: none;
+}
+
+.registerButton{
+    width: 60%;
+    align-self: center;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color:rgb(255, 255, 255) ;
+    background-color: hsl(198, 69%, 50%);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.registerButton:hover{
+    background-color: #b6b2aa;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+    color:rgb(0, 0, 0) ;
+
+}
+
+
+.loginRegister{
+    margin-top: 10px;
+    width: 40%;
+    align-self: center;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    color:rgb(255, 255, 255) ;
+    background-color: hsl(198, 69%, 50%);
+
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+   
+}
+
+.loginRegister:hover{
+    background-color: rgb(168, 185, 203);
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+    color:#000000 ;
+
+
+}
+
+.registerFooter{
+    font-size: medium;
+    font-weight: 400;
+    color: white;
+    align-items: center;
+    display: flex;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.registerLogin{
+    margin-top: 30px;
+    font-size: medium;
+    font-weight: 400;
+    color: white;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+}

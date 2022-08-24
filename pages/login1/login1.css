@@ -1,0 +1,177 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #c3cbcd;
+    background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
+    background-image: url("/public/assets/manthan_bkg1.jpg");
+    background-size: 400px;
+}
+
+.loginWrapper{
+    width: 130%;
+    height: 100%;
+    display: flex;
+}
+
+.loginLeft, .loginRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginLeft{
+    justify-content: center;
+    margin-left: 110px;
+}
+
+.loginRight{
+    background-image: url("/public/assets/bg_3.jpg");
+    background-size: cover;
+    height: 790px;
+    width: 250px;
+    margin-right: 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+
+.loginLeft > img{
+    margin-left: 140px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: contain;
+    cursor: pointer;
+
+ 
+
+}
+
+.loginLogo{
+    margin-left: 80px;
+    font-size: 70px;
+    font-weight: 800;
+    color: #ff8400;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.loginDesc{
+    margin-bottom: 0px;
+    font-size: 20px;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+
+
+
+.loginBox{
+    margin-bottom: 180px;
+    height: 250px;
+    padding: 70px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.loginTitle{
+    color: #ff8400;
+    margin-left: 180px;
+    margin-bottom: 30px;
+    font-family: cursive;
+}
+
+
+.loginInput{
+    margin-bottom: 30px;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 18px;
+    border: 1px solid yellow;
+    margin-left: 65px;
+    padding: 10px;
+    width: 450px;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+
+.loginButton{
+    width: 60%;
+    align-self: center;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color:rgb(255, 255, 255) ;
+    background-color: hsl(198, 69%, 50%);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginButton:hover{
+    background-color: #b6b2aa;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+    color:rgb(0, 0, 0) ;
+
+}
+
+.loginForgot{
+    margin-top: 10px;
+    height: 10px;
+    text-align: center;
+    color: rgb(132, 175, 187) ;
+    cursor: pointer;
+    font-style: italic;
+
+}
+
+.loginForgot:hover{
+    color: #ffb300;
+}
+
+.loginRegister{
+    margin-top: 30px;
+    width: 60%;
+    align-self: center;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color:rgb(255, 255, 255) ;
+    background-color: hsl(198, 69%, 50%);
+
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginRegister:hover{
+    background-color: rgb(168, 185, 203);
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+    color:#000000 ;
+
+}
+
+.GoogleAuth{
+    margin-top: 20px;
+    margin-left: 170px;
+
+}

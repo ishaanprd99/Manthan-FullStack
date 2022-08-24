@@ -1,0 +1,189 @@
+.profile{
+    display: flex;
+}
+
+.profileRight{
+    flex: 9;
+}
+
+
+
+.profileBox{
+    width: 560px;
+    height: 295px;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #356570;
+    margin-right: 500px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    background-image: url("/public/assets/topbr_bg.jpg");
+    background-size: cover;
+
+    
+
+}
+
+
+
+.profileData{
+    height: 2px;
+    display: inline-block;
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+.profileBoxBottom >h5 {
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 20px;
+    justify-content: center;
+    color: #ff9900;
+    cursor: pointer;
+}
+
+.profileBoxBottom >h6 {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 20px;
+    justify-content: center;
+    color: antiquewhite;
+    cursor: pointer;
+
+}
+
+.profileButton{
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: #147493;
+    color: white;
+    height: 40px;
+    
+}
+
+.profileIcon{
+    margin-left: 35px;
+    color: whitesmoke;
+    height: 30px;
+    cursor: pointer;
+}
+
+.profileName{
+    color: aliceblue;
+    margin-top: 130px;
+    margin-left: 215px;
+    margin-bottom: 10px;
+
+}
+
+.feedInfoItem{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 60px;
+    height: 10px;
+
+    
+}
+
+
+.profileBox > img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 5px;
+    border: 3px solid rgb(255, 170, 0);
+}
+
+
+
+.profileInfo{
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 380px;
+    margin-right: 50px;
+}
+
+.profileInfoKey{
+    color: aliceblue;
+}
+
+.rightbarInfoValue{
+    color: aliceblue;
+}
+
+.profileData{
+    margin-right: 200px;
+    padding-right: 50px;
+
+}
+
+.profileSettings{
+    margin-right: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.profileSettings:hover{
+    color: #456167 ;
+}
+
+
+
+
+.profileInfoButton:hover{
+    color: #ff9900 ;
+    
+}
+
+.profileFollowButton{
+    margin-top: 10px;
+    background-color:  #3b5b63;
+    height: 40px;
+    justify-content: center;
+    cursor: pointer;
+    display: inline;
+    text-align: center;
+    align-items: center;
+    margin-left: 40px;
+    color: whitesmoke;
+    border: none;
+}
+
+.profileFollowButton:hover{
+    color: #ff9900 ;
+}
+
+.profileFollow{
+    display: flex;
+    color: black;
+    cursor: pointer;
+}
+
+.profileFollow:hover{
+    color: #456167 ;
+}
+
+.profileInfoDesc{
+    font-weight: 300;
+}
+
+.profileRightBottom{
+    display: flex;
+}
+
